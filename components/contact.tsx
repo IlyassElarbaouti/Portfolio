@@ -23,15 +23,15 @@ const Contact = () => {
       <SectionHeading>Contact me</SectionHeading>
       <p className="text-gray-700 -mt-6">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:ilyasselarbaouti@gmail.com">
-        ilyasselarbaouti@gmail.com
+        <a className="underline" href="mailto:ilyasselarbaouti@outlook.com">
+        ilyasselarbaouti@outlook.com
         </a>{" "}
         or through this form
       </p>
       <form
         className="mt-10 flex flex-col "
         action={async (formData) => {
-          const { data, error } = await sendEmail(formData);
+          const {  error } = await sendEmail(formData);
 
           if (error) {
             toast.error(error);

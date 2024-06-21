@@ -1,9 +1,7 @@
 "use client"
-import React, { useEffect } from 'react'
+import React from 'react'
 import {motion} from "framer-motion"
 import SectionHeading from './sectionHeading'
-import { useInView } from 'react-intersection-observer'
-import { useActiveSectionContext } from '@/context/active-section-context'
 import { useSectionInView } from '@/lib/hooks'
 
 const About = () => {
@@ -41,7 +39,7 @@ const About = () => {
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">3d modeling</span>. I'm also
-        learning how to play the piano.
+        learning how to play piano.
       </p>
     </motion.section>
   )

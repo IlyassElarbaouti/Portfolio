@@ -54,7 +54,7 @@ const {ref} =  useSectionInView({sectionName:"Home"})
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Ilyass.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">software engineer</span> with{" "}
         <span className="font-bold">4 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
@@ -63,7 +63,7 @@ const {ref} =  useSectionInView({sectionName:"Home"})
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col-reverse sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
       >
         <Link
         onClick={()=>{
@@ -76,17 +76,17 @@ const {ref} =  useSectionInView({sectionName:"Home"})
           Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition"/>
         </Link>
 
-        <a href="/CV.pdf" download className="cursor-pointer group outline-none  hover:bg-gray-50 active:scale-105 focus:scale-110 hover:scale-110 transition bg-white borderBlack px-7 py-3 flex items-center gap-2 rounded-full ">
+        <a href="https://www.linkedin.com/in/ilyass-el-arbaouti-75b335201/" target="_blank" className="cursor-pointer borderBlack  outline-none focus:scale-110 hover:scale-110 hover:bg-gray-50 active:scale-105 transition bg-white px-7 py-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full">
+          <BsLinkedin className="mx-2"/> LinkedIn profile
+        </a>
+        {/* <a href="/CV.pdf" download className="cursor-pointer group outline-none  hover:bg-gray-50 active:scale-105 focus:scale-110 hover:scale-110 transition bg-white borderBlack px-7 py-3 flex items-center gap-2 rounded-full ">
           Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
-        </a>
+        </a> */}
 
-        <a href="https://www.linkedin.com/in/ilyass-el-arbaouti-75b335201/" target="_blank" className="cursor-pointer borderBlack  outline-none focus:scale-110 hover:scale-110 hover:bg-gray-50 active:scale-105 transition bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full">
-          <BsLinkedin />
-        </a>
 
-        <a href="https://github.com/IlyassElarbaouti" target="_blank" className=" cursor-pointer borderBlack  outline-none focus:scale-[1.15] hover:scale-[1.15] hover:bg-gray-50 active:scale-105 transition bg-white p-4 text-[1.35rem] text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full">
+        {/* <a href="https://github.com/IlyassElarbaouti" target="_blank" className=" cursor-pointer borderBlack  outline-none focus:scale-[1.15] hover:scale-[1.15] hover:bg-gray-50 active:scale-105 transition bg-white p-4 text-[1.35rem] text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full">
           <FaGithubSquare/>
-        </a>
+        </a> */}
       </motion.div>
     </section>
   );

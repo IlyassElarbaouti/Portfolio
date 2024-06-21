@@ -43,18 +43,18 @@ export const experiencesData = [
     date: "2019",
   },
   {
-    title: "Front-End Developer",
+    title: "Web Developer",
     location: "Kharkiv, Ukraine",
     description:
-      "I worked as a front-end developer for 1 year in 1 job and 6 months in another job. I also upskilled to the full stack.",
+      "During 18 months, I've been working as a web developer, building web based solutions for multiple projects.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
+    title: "software engineer",
     location: "Almeria, Spain",
     description:
-      "I'm now a full-stack developer. I built software solutions (including dashboard applications) to manage big companies warehouses like Samsung and Dell.  My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to new challenges.",
+      "As a software engineer. I build software solutions to manage warehouses like. I've participated in building warehouse solution for companies like Samsung, Element Logic and Dell.  My stack includes .NET, Node.JS, React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to new challenges.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
@@ -62,25 +62,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "DWMaroc",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "DWMaroc is a Next.js-powered platform that simplifies access to free online courses. It integrates Sanity.io for seamless content management and features a Telegram bot for instant updates via webhooks. The platform has 10k+ active users.",
+    tags: ["React", "Next.js","Sanity.io" ,"react query", "Tailwind", "web sockets"],
     imageUrl: corpcommentImg,
+    url:"https://www.dwmaroc.com/"
   },
   {
-    title: "rmtDev",
+    title: "Start wave trading",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Designed and built an intuitive user interface for a trading signals provider.",
+    tags: ["React", "Tailwind", "Shadcn"],
     imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    url:"https://www.startwavetrading.com/"
   },
 ] as const;
 
